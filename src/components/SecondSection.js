@@ -1,67 +1,52 @@
-import { Typography } from "@material-tailwind/react";
+import { Button, Typography } from "@material-tailwind/react";
 import React from "react";
-import Arrow from "../utils/Arrow";
 
 const SecondSection = () => {
-	const bottomLinks = [
-		{
-			id: "1",
-			title: "Explore Legality Guide",
-			link: "/",
-		},
-		{ id: "2", title: "Visit the Trust Center", link: "/" },
-	];
-
 	return (
-		<div className='w-full bg-white py-14 min-h-[100vh] lg:px-8 px-4 flex lg:flex-row flex-col lg:items-center'>
+		<div className='w-full bg-white lg:px-8 px-4 flex lg:flex-row flex-col lg:items-center mt-10'>
 			<div className='lg:pr-6 lg:w-1/2 w-full lg:mr-16'>
 				<Typography className='font-bold text-lg text-purple-600 mb-4 font-poppins'>
-					Trusted Worldwide
+					Meet your match
 				</Typography>
 				<Typography className='font-extrabold text-2xl mb-4 font-poppins'>
-					Trusted by over 600 million users and 10,000 teams
+					Trusted by over 10 million users worldwide
 				</Typography>
-				<div className='pb-8 mb-8 border-b-2'>
-					<Typography className='lg:text-lg text-md font-poppins'>
-						Deliver great service experiences fast - without the complexity of
-						traditional ITSM solutions. Accelerate critical development work,
-						eliminate toil, and deploy changes with ease.
+				<div className='mb-8 lg:mb-auto'>
+					<Typography className='lg:text-lg text-md font-poppins mb-6'>
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+						accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+						quae ab illo inventore veritatis et quasi architecto beatae vitae
+						dicta sunt explicabo.
 					</Typography>
+					<Button size='lg' color='purple'>
+						Find your match
+					</Button>
 				</div>
-				{bottomLinks.map((link) => (
-					<a
-						href={link.link}
-						className='flex text-purple-600 font-poppins mb-4'
-						key={link.id}
-					>
-						<Typography className='font-bold text-purple-600 font-poppins'>
-							{link.title}
-						</Typography>
-						<Arrow />
-					</a>
-				))}
 			</div>
 
 			<div className='lg:w-1/2 w-full'>
 				<div className='w-full flex lg:flex-row flex-col items-center justify-between lg:mb-12 lg:space-x-5 '>
 					<div className='lg:w-1/2 w-full mb-6'>
 						<svg
-							class='w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500'
-							fill='currentColor'
-							viewBox='0 0 20 20'
 							xmlns='http://www.w3.org/2000/svg'
+							fill='none'
+							viewBox='0 0 24 24'
+							stroke-width='1.5'
+							stroke='currentColor'
+							class='w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500'
 						>
 							<path
-								fill-rule='evenodd'
-								d='M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z'
-								clip-rule='evenodd'
-							></path>
+								stroke-linecap='round'
+								stroke-linejoin='round'
+								d='M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75'
+							/>
 						</svg>
+
 						<Typography className='text-2xl mb-2 font-extrabold font-poppins'>
 							99.99%
 						</Typography>
 						<Typography className='text-md font-poppins'>
-							For Landwind, with zero maintenance downtime
+							Enjoy using meetup and have created healthy relationships
 						</Typography>
 					</div>
 					<div className='lg:w-1/2 w-full mb-6'>
@@ -74,10 +59,10 @@ const SecondSection = () => {
 							<path d='M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z'></path>
 						</svg>
 						<Typography className='text-2xl mb-2 font-extrabold font-poppins'>
-							600M+ Users
+							10M+ Users
 						</Typography>
 						<Typography className='text-md font-poppins'>
-							Trusted by over 600 milion users around the world
+							Trusted by over 10 milion users around the world
 						</Typography>
 					</div>
 				</div>
@@ -97,10 +82,11 @@ const SecondSection = () => {
 							></path>
 						</svg>
 						<Typography className='text-2xl mb-2 font-extrabold font-poppins'>
-							100+ countries
+							15+ countries
 						</Typography>
 						<Typography className='text-md font-poppins'>
-							Have used Landwind to create functional websites
+							Have created good, healthy, and interactive business and cordial
+							relationships.
 						</Typography>
 					</div>
 					<div className='lg:w-1/2 w-full'>
@@ -113,10 +99,10 @@ const SecondSection = () => {
 							<path d='M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z'></path>
 						</svg>
 						<Typography className='text-2xl mb-2 font-extrabold font-poppins'>
-							5+ Million
+							3+ Million
 						</Typography>
 						<Typography className='text-md font-poppins'>
-							Transactions per day
+							Active users per day ready to network and mingle.
 						</Typography>
 					</div>
 				</div>

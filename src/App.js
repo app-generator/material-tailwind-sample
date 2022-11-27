@@ -1,24 +1,18 @@
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import FirstSection from "./components/FirstSection";
-import SecondSection from "./components/SecondSection";
-import Testimonial from "./components/Testimonial";
-import PriceSection from "./components/PriceSection";
-import AdsContainer from "./components/AdsContainer";
-import Footer from "./components/Footer";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 function App() {
 	return (
-		<div className='max-w-[1280px]'>
-			<Nav />
-			<Hero />
-			<FirstSection />
-			<SecondSection />
-			<Testimonial />
-			<PriceSection />
-			<AdsContainer />
-			<Footer />
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<Home />} />
+				<Route path='/login' element={<Login />} />
+				<Route path='/register' element={<Register />} />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 
