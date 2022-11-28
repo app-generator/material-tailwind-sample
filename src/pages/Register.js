@@ -21,8 +21,8 @@ const Register = () => {
 				<label>Confirm Password</label>
 				<Input label='Password' type='password' />
 			</div>
-			<div className='md:w-[70%] w-full'>
-				<Button size='lg' color='purple'>
+			<div className='md:w-[70%] w-full flex items-center justify-center'>
+				<Button size='lg' color='purple' className='w-[50%]'>
 					Register
 				</Button>
 			</div>
