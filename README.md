@@ -22,13 +22,13 @@ Material Tailwind is a free and open-source UI library inspired by Material Desi
 
 ## Components
 
-- `Header` 
-- `Hero`
-- `Info Section`
-- `AboutUs`
-- `Testimonial`
-- `ContactUs`
-- `Footer`   
+- ✅ `Header` 
+- ✅ `Hero`
+- ✅ `Info Section`
+- ✅ `AboutUs`
+- ✅ `Testimonial`
+- ✅ `ContactUs`
+- ✅ `Footer`   
 
 <br />
 
