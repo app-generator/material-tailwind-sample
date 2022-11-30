@@ -1,9 +1,9 @@
 # [React Material-Tailwind](https://github.com/app-generator/sample-material-tailwind) `Sample`
 
-**Material Tailwind** is a free and open-source UI library inspired by Material Design that provides a unique experience for developers working with React and Tailwind CSS - The library is actively supported by [Creative-Tim](https://bit.ly/3fKQZaL).
+**Material Tailwind** is a free and open-source UI library inspired by Material Design that provides a unique experience for developers working with React and Tailwind CSS - The library is actively supported by [Creative-Tim](https://www.creative-tim.com/?AFFILIATE=128200).
 
 - 👉 [React Material-Tailwind](https://sample-material-tailwind.appseed-srv1.com/) - `LIVE Demo`
-- 👉 [React Apps](https://appseed.us/apps/react) - index provided by `AppSeed`
+- 🚀 [Free Support](https://appseed.us/support/) via `Email` & `Discord` provided by **AppSeed**
 
 <br />
 
@@ -43,6 +43,8 @@ React.js is a JavaScript library that allows you to build fast and efficient web
 ## [Material Tailwind](https://www.material-tailwind.com/) 
 
 Material Tailwind is an easy to use components library for Tailwind CSS and Material Design.
+
+> Actively supported by [Creative-Tim](https://www.creative-tim.com/?AFFILIATE=128200).
 
 ![Material Tailwind - Open-source UI library inspired by Material Design.](https://user-images.githubusercontent.com/51070104/204787709-560342fd-7dfd-4bc3-8b86-14da44030a85.png) 
 
