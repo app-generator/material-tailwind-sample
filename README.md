@@ -7,16 +7,16 @@ Material Tailwind is a free and open-source UI library inspired by Material Desi
 
 <br />
 
+![React Material-Tailwind - Open-Source Sample proivded by AppSeed.](https://user-images.githubusercontent.com/51070104/204786262-1dfa1810-3e4e-474c-84df-213faaa3a87b.jpg)
+
+<br />
+
 ## How to use it 
 
 - Install `NodejS` - version 14.x or higher 
   - Project tested with **v18.0.0** 
 - Install dependencies via `yarn`
 - Start the project: `yarn start` 
-
-<br />
-
-ToDo
 
 <br />
 
